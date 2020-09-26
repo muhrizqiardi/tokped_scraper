@@ -37,10 +37,10 @@ class tokped_scraper():
                     'Harga': harga
                     })
 
-
+# Contoh / Example
 cari_switch = tokped_scraper(
-    "rtx 2080", 
+    "rtx 3090", 
     "C:\\Program Files (x86)\\chromedriver.exe",
-    ['2060','2070','gtx'])
+    ['2060','2070','GTX','2080'])
 cari_switch.search()
 cari_switch.scrape()
